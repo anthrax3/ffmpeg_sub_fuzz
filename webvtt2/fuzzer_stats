@@ -1,0 +1,27 @@
+start_time        : 1507215614
+last_update       : 1507303044
+fuzzer_pid        : 4915
+cycles_done       : 180
+execs_done        : 5993468
+execs_per_sec     : 97.87
+paths_total       : 1075
+paths_favored     : 85
+paths_found       : 112
+paths_imported    : 962
+max_depth         : 5
+cur_path          : 651
+pending_favs      : 0
+pending_total     : 5
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 4.69%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1507302806
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 5993468
+exec_timeout      : 300
+afl_banner        : webvtt2
+afl_version       : 2.51b
+command_line      : /home/bperry/afl/afl-2.51b/afl-fuzz -i webvvt_tests/ -o misc_sync/ -m none -S webvtt2 -- /home/bperry/afl/FFmpeg-master/ffmpeg -f webvtt -i -

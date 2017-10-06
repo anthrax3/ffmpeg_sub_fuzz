@@ -1,0 +1,27 @@
+start_time        : 1507214570
+last_update       : 1507303049
+fuzzer_pid        : 30845
+cycles_done       : 0
+execs_done        : 13720639
+execs_per_sec     : 154.71
+paths_total       : 957
+paths_favored     : 75
+paths_found       : 86
+paths_imported    : 870
+max_depth         : 2
+cur_path          : 624
+pending_favs      : 26
+pending_total     : 891
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 4.57%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1507245741
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 13720639
+exec_timeout      : 40
+afl_banner        : microdvd1
+afl_version       : 2.51b
+command_line      : /home/bperry/afl/afl-2.51b/afl-fuzz -i microdvd_tests/ -o misc_sync/ -m none -M microdvd1 -- /home/bperry/afl/FFmpeg-master/ffmpeg -f microdvd -i -

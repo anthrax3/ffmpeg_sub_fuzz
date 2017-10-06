@@ -1,0 +1,9 @@
+WEBVTT w after the signature
+
+STYLE
+::cue {
+  background papayawhip;
+}
+/* Style blocks cannot use blank lines nor "dash dash greater than" */
+
+N

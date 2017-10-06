@@ -1,0 +1,27 @@
+start_time        : 1507217338
+last_update       : 1507303019
+fuzzer_pid        : 10895
+cycles_done       : 50
+execs_done        : 5369797
+execs_per_sec     : 79.08
+paths_total       : 832
+paths_favored     : 69
+paths_found       : 66
+paths_imported    : 764
+max_depth         : 3
+cur_path          : 796
+pending_favs      : 0
+pending_total     : 12
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 3.12%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1507302826
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 5369797
+exec_timeout      : 40
+afl_banner        : vobsub2
+afl_version       : 2.51b
+command_line      : /home/bperry/afl/afl-2.51b/afl-fuzz -i idx_tests/ -o misc_sync/ -m none -S vobsub2 -- /home/bperry/afl/FFmpeg-master/ffmpeg -sub_name /home/bperry/x01 Oceans - Into The Blue.sub -f vobsub -protocol_whitelist file,http,https,tcp,tls,pipe -i -

@@ -1,0 +1,17 @@
+[INFORM[SIZE]12,nATION] <-ed
+[E] Title of film.
+[AUTHOR] Author of film.
+[SOURCE] Arbitrary text
+[FILEPATH] Arbitrary text
+[DELAY] (time in frl subtitles
+[COMMENT] Arbitrary text
+[END INÿÿÿÿATION]
+[SUBTITLE] <-- beginning tag required.
+[CO text
+[END INFORMATIONLF]&HFFFFFF,[SIZE]12,[FONT]Times New Roman
+00:01:00.10,00:02:00.20
+Oh, noQ
+The eggs are hatching!
+<blank line>
+00:02:00.30,00:03:00.40
+ing.

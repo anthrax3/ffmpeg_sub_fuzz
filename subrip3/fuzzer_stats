@@ -1,0 +1,27 @@
+start_time        : 1507214667
+last_update       : 1507303006
+fuzzer_pid        : 9597
+cycles_done       : 216
+execs_done        : 7496900
+execs_per_sec     : 144.01
+paths_total       : 1137
+paths_favored     : 87
+paths_found       : 230
+paths_imported    : 906
+max_depth         : 4
+cur_path          : 798
+pending_favs      : 0
+pending_total     : 3
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 4.70%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1507302792
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 7496900
+exec_timeout      : 280
+afl_banner        : subrip3
+afl_version       : 2.51b
+command_line      : /home/bperry/afl/afl-2.51b/afl-fuzz -i subrip_tests/ -o misc_sync/ -m none -Ssubrip3 -- /home/bperry/afl/FFmpeg-master/ffmpeg -f srt -i -
