@@ -1,9 +1,9 @@
 start_time        : 1507217319
-last_update       : 1507419575
+last_update       : 1507419993
 fuzzer_pid        : 26607
 cycles_done       : 2
-execs_done        : 29543020
-execs_per_sec     : 153.42
+execs_done        : 29608313
+execs_per_sec     : 163.88
 paths_total       : 873
 paths_favored     : 69
 paths_found       : 3
@@ -20,7 +20,7 @@ unique_hangs      : 0
 last_path         : 1507401506
 last_crash        : 0
 last_hang         : 0
-execs_since_crash : 29543020
+execs_since_crash : 29608313
 exec_timeout      : 60
 afl_banner        : vobsub1
 afl_version       : 2.51b

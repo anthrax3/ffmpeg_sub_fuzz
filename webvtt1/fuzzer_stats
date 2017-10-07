@@ -1,9 +1,9 @@
 start_time        : 1507215604
-last_update       : 1507419545
+last_update       : 1507419993
 fuzzer_pid        : 7750
 cycles_done       : 2
-execs_done        : 30897726
-execs_per_sec     : 159.61
+execs_done        : 30970122
+execs_per_sec     : 172.25
 paths_total       : 1108
 paths_favored     : 83
 paths_found       : 70
@@ -20,7 +20,7 @@ unique_hangs      : 0
 last_path         : 1507414355
 last_crash        : 0
 last_hang         : 0
-execs_since_crash : 30897726
+execs_since_crash : 30970122
 exec_timeout      : 300
 afl_banner        : webvtt1
 afl_version       : 2.51b

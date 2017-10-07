@@ -1,9 +1,9 @@
 start_time        : 1507214465
-last_update       : 1507419543
+last_update       : 1507419993
 fuzzer_pid        : 30927
 cycles_done       : 0
-execs_done        : 27433005
-execs_per_sec     : 131.88
+execs_done        : 27492957
+execs_per_sec     : 162.97
 paths_total       : 996
 paths_favored     : 78
 paths_found       : 42
@@ -20,7 +20,7 @@ unique_hangs      : 0
 last_path         : 1507330413
 last_crash        : 0
 last_hang         : 0
-execs_since_crash : 27433005
+execs_since_crash : 27492957
 exec_timeout      : 20
 afl_banner        : vplayer1
 afl_version       : 2.51b
