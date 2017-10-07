@@ -3,144 +3,144 @@ status check tool for afl-fuzz by <lcamtuf@google.com>
 Individual fuzzers
 ==================
 
->>> asan1 (1 days, 0 hrs) <<<
+>>> asan1 (1 days, 3 hrs) <<<
 
-  cycle 1, lifetime speed 15 execs/sec, path 7129/7369 (96%)
-  pending 104/5987, coverage 26.50%, no crashes yet
+  cycle 1, lifetime speed 16 execs/sec, path 7455/7650 (97%)
+  pending 90/6183, coverage 26.70%, no crashes yet
 
->>> asan2 (0 days, 23 hrs) <<<
+>>> asan2 (1 days, 2 hrs) <<<
 
-  cycle 49, lifetime speed 21 execs/sec, path 0/814 (0%)
-  pending 0/12, coverage 5.53%, no crashes yet
+  cycle 53, lifetime speed 21 execs/sec, path 811/818 (99%)
+  pending 0/4, coverage 5.53%, no crashes yet
 
->>> microdvd1 (1 days, 0 hrs) <<<
+>>> microdvd1 (1 days, 3 hrs) <<<
 
   cycle 1, lifetime speed 155 execs/sec, path 624/957 (65%)
   pending 26/891, coverage 4.57%, no crashes yet
 
->>> microdvd2 (1 days, 0 hrs) <<<
+>>> microdvd2 (1 days, 3 hrs) <<<
 
-  cycle 51, lifetime speed 71 execs/sec, path 398/1090 (36%)
-  pending 0/13, coverage 4.62%, no crashes yet
+  cycle 55, lifetime speed 70 execs/sec, path 1011/1094 (92%)
+  pending 0/6, coverage 4.62%, no crashes yet
 
->>> microdvd3 (1 days, 0 hrs) <<<
+>>> microdvd3 (1 days, 3 hrs) <<<
 
-  cycle 51, lifetime speed 68 execs/sec, path 583/1088 (53%)
-  pending 0/13, coverage 4.62%, no crashes yet
+  cycle 55, lifetime speed 67 execs/sec, path 817/1092 (74%)
+  pending 0/9, coverage 4.62%, no crashes yet
 
->>> microdvd4 (1 days, 0 hrs) <<<
+>>> microdvd4 (1 days, 3 hrs) <<<
 
-  cycle 49, lifetime speed 69 execs/sec, path 1027/1093 (93%)
-  pending 0/19, coverage 4.62%, no crashes yet
+  cycle 53, lifetime speed 68 execs/sec, path 1085/1097 (98%)
+  pending 0/8, coverage 4.62%, no crashes yet
 
->>> subrip1 (1 days, 0 hrs) <<<
+>>> subrip1 (1 days, 3 hrs) <<<
 
-  cycle 1, lifetime speed 201 execs/sec, path 1039/1063 (97%)
-  pending 7/963, coverage 4.68%, no crashes yet
+  cycle 2, lifetime speed 202 execs/sec, path 597/1109 (53%)
+  pending 1/994, coverage 4.70%, no crashes yet
 
->>> subrip2 (1 days, 0 hrs) <<<
+>>> subrip2 (1 days, 3 hrs) <<<
 
-  cycle 57, lifetime speed 85 execs/sec, path 1116/1141 (97%)
-  pending 0/11, coverage 4.70%, no crashes yet
+  cycle 63, lifetime speed 84 execs/sec, path 136/1144 (11%)
+  pending 0/1, coverage 4.70%, no crashes yet
 
->>> subrip3 (1 days, 0 hrs) <<<
+>>> subrip3 (1 days, 3 hrs) <<<
 
-  cycle 217, lifetime speed 84 execs/sec, path 887/1137 (78%)
+  cycle 235, lifetime speed 83 execs/sec, path 1117/1140 (97%)
+  pending 0/0, coverage 4.70%, no crashes yet
+
+>>> subrip4 (1 days, 3 hrs) <<<
+
+  cycle 63, lifetime speed 84 execs/sec, path 469/1132 (41%)
+  pending 0/7, coverage 4.70%, no crashes yet
+
+>>> subviewer1 (1 days, 3 hrs) <<<
+
+  cycle 2, lifetime speed 199 execs/sec, path 1104/1111 (99%)
+  pending 0/988, coverage 4.70%, no crashes yet
+
+>>> subviewer2 (1 days, 3 hrs) <<<
+
+  cycle 62, lifetime speed 85 execs/sec, path 1057/1140 (92%)
   pending 0/3, coverage 4.70%, no crashes yet
 
->>> subrip4 (1 days, 0 hrs) <<<
+>>> subviewer3 (1 days, 3 hrs) <<<
 
-  cycle 58, lifetime speed 85 execs/sec, path 76/1129 (6%)
-  pending 0/13, coverage 4.70%, no crashes yet
+  cycle 55, lifetime speed 70 execs/sec, path 1056/1134 (93%)
+  pending 0/7, coverage 4.70%, no crashes yet
 
->>> subviewer1 (1 days, 0 hrs) <<<
+>>> subviewer4 (1 days, 3 hrs) <<<
 
-  cycle 2, lifetime speed 199 execs/sec, path 1089/1111 (98%)
-  pending 2/990, coverage 4.70%, no crashes yet
+  cycle 58, lifetime speed 73 execs/sec, path 1103/1145 (96%)
+  pending 0/9, coverage 4.70%, no crashes yet
 
->>> subviewer2 (1 days, 0 hrs) <<<
+>>> vobsub1 (1 days, 2 hrs) <<<
 
-  cycle 57, lifetime speed 86 execs/sec, path 1131/1136 (99%)
-  pending 0/8, coverage 4.70%, no crashes yet
-
->>> subviewer3 (1 days, 0 hrs) <<<
-
-  cycle 51, lifetime speed 71 execs/sec, path 1096/1130 (96%)
-  pending 0/14, coverage 4.70%, no crashes yet
-
->>> subviewer4 (1 days, 0 hrs) <<<
-
-  cycle 53, lifetime speed 74 execs/sec, path 1111/1141 (97%)
-  pending 0/13, coverage 4.70%, no crashes yet
-
->>> vobsub1 (0 days, 23 hrs) <<<
-
-  cycle 1, lifetime speed 145 execs/sec, path 730/792 (92%)
+  cycle 1, lifetime speed 139 execs/sec, path 730/792 (92%)
   pending 10/716, coverage 3.12%, no crashes yet
 
->>> vobsub2 (0 days, 23 hrs) <<<
+>>> vobsub2 (1 days, 2 hrs) <<<
 
-  cycle 51, lifetime speed 62 execs/sec, path 797/832 (95%)
-  pending 0/12, coverage 3.12%, no crashes yet
-
->>> vobsub3 (0 days, 23 hrs) <<<
-
-  cycle 102, lifetime speed 61 execs/sec, path 8/831 (0%)
+  cycle 56, lifetime speed 62 execs/sec, path 835/836 (99%)
   pending 0/4, coverage 3.12%, no crashes yet
 
->>> vobsub4 (0 days, 23 hrs) <<<
+>>> vobsub3 (1 days, 2 hrs) <<<
 
-  cycle 55, lifetime speed 66 execs/sec, path 733/831 (88%)
-  pending 0/14, coverage 3.12%, no crashes yet
+  cycle 111, lifetime speed 60 execs/sec, path 385/835 (46%)
+  pending 0/1, coverage 3.12%, no crashes yet
 
->>> vplayer1 (1 days, 0 hrs) <<<
+>>> vobsub4 (1 days, 2 hrs) <<<
 
-  cycle 1, lifetime speed 132 execs/sec, path 861/965 (89%)
-  pending 10/877, coverage 4.56%, no crashes yet
+  cycle 60, lifetime speed 66 execs/sec, path 372/835 (44%)
+  pending 0/7, coverage 3.12%, no crashes yet
 
->>> vplayer2 (1 days, 0 hrs) <<<
+>>> vplayer1 (1 days, 3 hrs) <<<
 
-  cycle 50, lifetime speed 67 execs/sec, path 368/1010 (36%)
-  pending 0/17, coverage 4.56%, no crashes yet
+  cycle 1, lifetime speed 133 execs/sec, path 938/984 (95%)
+  pending 8/892, coverage 4.56%, no crashes yet
 
->>> vplayer3 (1 days, 0 hrs) <<<
+>>> vplayer2 (1 days, 3 hrs) <<<
 
-  cycle 51, lifetime speed 69 execs/sec, path 134/1012 (13%)
-  pending 0/19, coverage 4.56%, no crashes yet
+  cycle 54, lifetime speed 67 execs/sec, path 590/1014 (58%)
+  pending 0/9, coverage 4.56%, no crashes yet
 
->>> vplayer4 (1 days, 0 hrs) <<<
+>>> vplayer3 (1 days, 3 hrs) <<<
 
-  cycle 50, lifetime speed 69 execs/sec, path 159/1008 (15%)
-  pending 0/20, coverage 4.56%, no crashes yet
+  cycle 55, lifetime speed 68 execs/sec, path 842/1016 (82%)
+  pending 0/10, coverage 4.56%, no crashes yet
 
->>> webvtt1 (1 days, 0 hrs) <<<
+>>> vplayer4 (1 days, 3 hrs) <<<
 
-  cycle 1, lifetime speed 142 execs/sec, path 986/1032 (95%)
-  pending 6/935, coverage 4.69%, no crashes yet
+  cycle 54, lifetime speed 68 execs/sec, path 171/1012 (16%)
+  pending 0/10, coverage 4.56%, no crashes yet
 
->>> webvtt2 (1 days, 0 hrs) <<<
+>>> webvtt1 (1 days, 2 hrs) <<<
 
-  cycle 181, lifetime speed 68 execs/sec, path 723/1075 (67%)
-  pending 0/5, coverage 4.69%, no crashes yet
+  cycle 1, lifetime speed 145 execs/sec, path 1011/1046 (96%)
+  pending 2/945, coverage 4.69%, no crashes yet
 
->>> webvtt3 (1 days, 0 hrs) <<<
+>>> webvtt2 (1 days, 2 hrs) <<<
 
-  cycle 85, lifetime speed 67 execs/sec, path 637/1081 (58%)
-  pending 0/8, coverage 4.69%, no crashes yet
+  cycle 197, lifetime speed 67 execs/sec, path 154/1080 (14%)
+  pending 0/0, coverage 4.69%, no crashes yet
 
->>> webvtt4 (1 days, 0 hrs) <<<
+>>> webvtt3 (1 days, 2 hrs) <<<
 
-  cycle 49, lifetime speed 68 execs/sec, path 63/1068 (5%)
-  pending 0/10, coverage 4.69%, no crashes yet
+  cycle 92, lifetime speed 66 execs/sec, path 1069/1086 (98%)
+  pending 0/2, coverage 4.69%, no crashes yet
+
+>>> webvtt4 (1 days, 2 hrs) <<<
+
+  cycle 53, lifetime speed 67 execs/sec, path 692/1073 (64%)
+  pending 0/2, coverage 4.69%, no crashes yet
 
 Summary stats
 =============
 
        Fuzzers alive : 26
-      Total run time : 26 days, 10 hours
-         Total execs : 203 million
-    Cumulative speed : 2300 execs/sec
-       Pending paths : 165 faves, 11587 total
-  Pending per fuzzer : 6 faves, 445 total (on average)
+      Total run time : 29 days, 4 hours
+         Total execs : 223 million
+    Cumulative speed : 2285 execs/sec
+       Pending paths : 137 faves, 11708 total
+  Pending per fuzzer : 5 faves, 450 total (on average)
        Crashes found : 0 locally unique
 
